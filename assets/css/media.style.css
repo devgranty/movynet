@@ -1,0 +1,17 @@
+/*Small devices (mobile, 320px and up)*/
+@media(min-width: 320px){
+	/*.grid-content-container{grid-template-columns:auto auto auto; -ms-grid-columns:auto auto auto;}*/
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media(min-width: 768px){
+	/*.grid-content-container{grid-template-columns:auto auto auto auto auto; -ms-grid-columns:auto auto auto auto auto;}*/
+	.backdrop-image-container{height:340px;} /*485*/
+	.poster-title-container > .movie-poster{width:154px; height:231px;}
+}
+
+/*Large devices (Laptop, 1024 and up)*/
+@media(min-width: 1024px){
+	/*.grid-content-container{grid-template-columns:auto auto auto auto auto auto auto auto auto; -ms-grid-columns:auto auto auto auto auto auto auto auto auto;}*/
+	.backdrop-image-container{height:402px;} /*647px*/
+}
